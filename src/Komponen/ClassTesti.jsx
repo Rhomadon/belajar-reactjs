@@ -10,10 +10,10 @@ export default class ClassTesti extends Component {
               <h3>Testimoni</h3>
             </div>
           </div>
-          <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="row row-cols-1 row-cols-md-4 g-4">
             <div class="col">
               <div class="card h-100 mb-3">
-                <img src="https://i.pinimg.com/originals/e6/67/3f/e6673fc4f4930a84277c3f88bc87978e.jpg" class="card-img-top rounded-circle" alt="miqdad" />
+                <img src="https://i.pinimg.com/originals/e6/67/3f/e6673fc4f4930a84277c3f88bc87978e.jpg" class="card-img-top rounded-circle" alt="zoro" />
                 <div class="card-body">
                   <h5 class="card-title">Roronoa Zoro</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -25,7 +25,7 @@ export default class ClassTesti extends Component {
             </div>
             <div class="col">
               <div class="card h-100 mb-3">
-                <img src="https://i.pinimg.com/originals/0d/67/20/0d67209380e463ff2ea4940a38d8a360.jpg" class="card-img-top rounded-circle" alt="hanif" />
+                <img src="https://i.pinimg.com/originals/0d/67/20/0d67209380e463ff2ea4940a38d8a360.jpg" class="card-img-top rounded-circle" alt="nami" />
                 <div class="card-body">
                   <h5 class="card-title">Nami</h5>
                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -37,10 +37,22 @@ export default class ClassTesti extends Component {
             </div>
             <div class="col">
               <div class="card h-100 mb-3">
-                <img src="https://i.pinimg.com/originals/d2/80/b3/d280b334747451a0de6a4a7624418793.jpg" class="card-img-top rounded-circle" alt="azam" />
+                <img src="https://i.pinimg.com/originals/d2/80/b3/d280b334747451a0de6a4a7624418793.jpg" class="card-img-top rounded-circle" alt="usopp" />
                 <div class="card-body">
                   <h5 class="card-title">God Usopp</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 mb-3">
+                <img src="https://i.pinimg.com/474x/4b/31/ab/4b31abc64e6c0d4e662c611c4ceb8a13.jpg" class="card-img-top rounded-circle" alt="sanji" />
+                <div class="card-body">
+                  <h5 class="card-title">Vinsmoke Sanji</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus beatae, laudantium aut officia ipsa commodi ut nam.</p>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">Last updated 3 mins ago</small>
