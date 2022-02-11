@@ -3,12 +3,12 @@
   background-color: #fff8dc;
 }
 
-section {
-  padding-top: 5rem;
-}
-
 .navbar {
   background-color: bisque;
+}
+
+section {
+  padding-top: 5rem;
 }
 
 footer {
@@ -17,4 +17,33 @@ footer {
 
 footer p {
   text-align: inherit;
+}
+
+#About {
+  background-color: #ffe4b5;
+}
+
+#Skills {
+  background-color: #fff8dc;
+}
+
+#Projects {
+  background-color: #ffe4b5;
+}
+
+#Testi {
+  background-color: #fff8dc;
+}
+
+#Testi .row .col h5 {
+  text-align: center;
+}
+
+
+#Testi .row .col .card-text {
+  text-align: center;
+}
+
+#Contact {
+  background-color: #ffe4b5;
 }

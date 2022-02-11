@@ -9,22 +9,22 @@ export default class ClassNavbar extends Component {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                <a class="nav-link active" aria-current="page" href="#Hero">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#About">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link" href="#Skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#Projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#testimoni">Testimoni</a>
+                <a class="nav-link" href="#Testi">Testimoni</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact Me</a>
+                <a class="nav-link" href="#Contact">Contact Me</a>
               </li>
             </ul>
           </div>
