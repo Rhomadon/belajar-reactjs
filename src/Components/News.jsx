@@ -8,7 +8,6 @@ export default class News extends Component {
         this.state = {
             srch: '',
             arr: [],
-            
           }
         console.log('constructor');
     }
@@ -27,7 +26,8 @@ export default class News extends Component {
     }
 
     getSnapshotBeforeUpdate() {
-        if (this.state.srch != '') {
+        const sr = this.state.srch
+        if (sr.length > 0) {
             const url = 'https://newsapi.org/v2/top-headlines?apiKey=54da94e5bdee433caf334ae91c37f642&country=id&q='
             axios.get(url + this.state.srch).then(res => {
             const news = res.data
