@@ -12,9 +12,8 @@ export default class News extends Component {
         console.log('constructor');
     }
     
-
     componentDidMount() {
-        const url = 'https://newsapi.org/v2/top-headlines?apiKey=54da94e5bdee433caf334ae91c37f642&country=id'
+        const url = 'https://newsapi.org/v2/top-headlines?apiKey=1cd88ee6c4b748299afa070ad6c386c2&country=id'
         axios.get(url)
         .then(res => {
             const news = res.data
@@ -22,22 +21,15 @@ export default class News extends Component {
             this.setState({ arr })
         })
         console.log('else')
-        
     }
 
-    getSnapshotBeforeUpdate() {
+    componentDidUpdate(prevState) {
         const sr = this.state.srch
-        if (sr.length > 0) {
-            const url = 'https://newsapi.org/v2/top-headlines?apiKey=54da94e5bdee433caf334ae91c37f642&country=id&q='
+        console.log(prevState.srch)
+        if (sr.length > 0 && this.state.srch !== prevState.srch) { 
+            const url = 'https://newsapi.org/v2/top-headlines?apiKey=1cd88ee6c4b748299afa070ad6c386c2&country=id&q='
             axios.get(url + this.state.srch).then(res => {
-            const news = res.data
-            let arr = news.articles
-            this.setState({ arr })
-        })
-        } else {
-            const url = 'https://newsapi.org/v2/top-headlines?apiKey=54da94e5bdee433caf334ae91c37f642&country=id'
-            axios.get(url).then(res => {
-            const news = res.data
+            const news = res.data 
             let arr = news.articles
             this.setState({ arr })
             })
