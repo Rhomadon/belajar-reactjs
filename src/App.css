@@ -12,11 +12,11 @@ section {
 }
 
 footer {
-  background-color: darkgoldenrod;
+  background-color: #fff8dc;
 }
 
 footer p {
-  text-align: inherit;
+  text-align: center;
 }
 
 #About {

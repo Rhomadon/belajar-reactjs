@@ -15,6 +15,7 @@ export default class ClassProjects extends Component {
               <div class="card">
                 <img src="https://www.creative-tim.com/blog/content/images/wordpress/2021/01/blog-4-1.jpg" class="card-img-top" alt="Project1" />
                 <div class="card-body">
+                <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
@@ -23,6 +24,7 @@ export default class ClassProjects extends Component {
               <div class="card">
                 <img src="https://www.creative-tim.com/blog/content/images/wordpress/2020/07/made-with-react-1-1024x638.png" class="card-img-top" alt="Project1" />
                 <div class="card-body">
+                <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
@@ -31,6 +33,7 @@ export default class ClassProjects extends Component {
               <div class="card">
                 <img src="https://www.creative-tim.com/blog/content/images/size/w960/wordpress/2021/01/blog-4-1.jpg" class="card-img-top" alt="Project1" />
                 <div class="card-body">
+                <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
